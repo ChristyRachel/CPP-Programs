@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    double n;
+    double square_root;
+    
+    cout << "Enter the number : " ;
+    cin >> n ;
+
+    square_root = sqrt (n) ;
+    cout << "Square root of " << n << " = " << square_root ;
+    cout << endl ;
+
+    return 0;
+}
