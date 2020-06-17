@@ -1,2 +1,2 @@
-# C-Programs
+# C++-Programs
 C++ Programs using Eclipse IDE
