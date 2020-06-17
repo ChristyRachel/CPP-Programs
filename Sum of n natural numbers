@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+  int limit, i, sum = 0;
+  
+  cout << "Enter the limit : ";
+  cin >> limit;
+  
+  for(i = 1; i <=limit; i++)
+  {
+     sum = sum + i;
+  }
+  
+  cout << "sum of natural numbers from 1 to "<< limit <<" is " << sum;
+  return 0;
+}
