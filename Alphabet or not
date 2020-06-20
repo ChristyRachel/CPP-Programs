@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    char c;
+    int lowercase, uppercase;
+    cout << "Enter the character: ";
+    cin >> c;
+    lowercase = (c>='a')&&(c<='z');
+    uppercase = (c>='A')&&(c<='Z');
+    if (lowercase || uppercase)
+        cout << c << " is an alphabet";
+    else
+        cout << c <<" is not an alphabet";
+    return 0;
+}
