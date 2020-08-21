@@ -1,0 +1,1 @@
+thread.o: ../thread.cpp
