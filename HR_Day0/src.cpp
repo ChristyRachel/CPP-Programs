@@ -3,7 +3,7 @@
  *
  *  Created on: Dec. 27, 2020
  *      Author: christy
- *      Ref: Hackerrank
+ *      Ref: Hackerrank challenge problem
  */
 
 #include <cmath>
