@@ -35,7 +35,7 @@ int main() {
 
 	// Concatenate and print the String variables on a new line
 	cout << s + s1 << endl;
-	// The 's' variable above should be printed first.
+	// 's' variable above should be printed first.
 
 	return 0;
 }
