@@ -10,17 +10,13 @@
 using namespace std;
 
 int max_of_four(int a, int b, int c, int d) {
-	if (a > b)
-	{
-		if (a > c)
-		{
+	if (a > b) {
+		if (a > c) {
 			if (a > d)
 				return a;
 			else
 				return d;
-		}
-		else
-		{
+		} else {
 			if (c > d)
 				return c;
 			else
@@ -28,23 +24,20 @@ int max_of_four(int a, int b, int c, int d) {
 		}
 	}
 
-	else if(b > c)
-	{
-			if (b > d)
+	else if (b > c) {
+		if (b > d)
 			return b;
-			else
+		else
 			return d;
 
-	}
-	else
-	{
-			if (c > d)
+	} else {
+		if (c > d)
 			return c;
-			else
+		else
 			return d;
 	}
-		return 0;
-	}
+	return 0;
+}
 
 int main() {
 	int a, b, c, d;
