@@ -1,0 +1,1 @@
+This includes different types of sorting alhorithms such as Bubble sort,Selection Sort, Recursive Bubble Sort,Insertion Sort, Recursive Insertion Sort, Merge Sort, Iterative Merge Sort, Quick Sort, Iterative Quick Sort, Heap Sort and so on.
