@@ -13,6 +13,7 @@ void PrintLinkedList(Node* head){
 		head = head->next;
 
 }
+	std::cout << std::endl;
 }
 
 void insertNodeAtFront(Node**head, int newValue){
@@ -38,11 +39,11 @@ int main() {
 	second->next = third;
 	third->next = forth;
 	forth->next = NULL;
-	
+
 	insertNodeAtFront(&head,1234);
         PrintLinkedList(head);
+
 	insertNodeAtFront(&head,120);
         PrintLinkedList(head);
 	return 0;
 }
-
