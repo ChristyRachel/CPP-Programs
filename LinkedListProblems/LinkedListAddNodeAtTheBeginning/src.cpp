@@ -38,11 +38,11 @@ int main() {
 	second->next = third;
 	third->next = forth;
 	forth->next = NULL;
-
-	PrintLinkedList(head);
-
+	
 	insertNodeAtFront(&head,1234);
-
+        PrintLinkedList(head);
+	insertNodeAtFront(&head,120);
+        PrintLinkedList(head);
 	return 0;
 }
 
