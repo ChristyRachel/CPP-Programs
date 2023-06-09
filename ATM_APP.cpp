@@ -32,7 +32,7 @@ while(cin >> option){
 		cout << "Your Balance is " << balance << "Rs." << endl;
 		break;
 	case 2:
-		cout << "Deposit Amount: " << endl;
+		cout << "Enter the Deposit Amount: " << endl;
 		cin >> deposit;
 		cout << "Your Current Balance is " << (balance + deposit) << endl;
 		break;
